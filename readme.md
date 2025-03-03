@@ -9,6 +9,8 @@ AI conversations.
 Solution : This is an Intellij plugin for Java Spring boot projects which does following things to reduce boilerplate
 and non-business code : Remove unwanted symbols, logs, imports, comments, and alerts
 
+Tech : Kotlin, Python
+
 # build
 $ ./gradlew clean build
 
