@@ -1,0 +1,19 @@
+<idea-plugin>
+    <id>com.codesummarizer</id>
+    <name>Code Summarizer for AI Model</name>
+    <vendor>Harshil</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.java</depends>
+    <depends>com.intellij.modules.python</depends>
+
+    <actions>
+        <action id="SummarizeCode"
+                class="com.codesummarizer.action.SummarizeCodeAction"
+                text="Summarize Code for AI"
+                description="Prepare code for AI Model">
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
+    </actions>
+</idea-plugin>
